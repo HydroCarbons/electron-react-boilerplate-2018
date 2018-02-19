@@ -22,7 +22,7 @@ I made this boilerplate to quickly get and up running with Electron app developm
 
 ## App Screenshot
 
-![App Screenshot]()
+![App Screenshot](https://github.com/HydroCarbons/electron-react-boilerplate-2018/blob/master/docs/app.png)
 
 ## Build Pipeline
 
