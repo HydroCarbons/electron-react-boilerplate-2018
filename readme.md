@@ -3,7 +3,7 @@ Electron + React + React-Bootrstrap + Babel + WebPack with HMR (hot module repla
 
 I made this boilerplate to quickly get and up running with Electron app development with React (with a dev and prod build and traspilation pipeline). You can also use react-bootstrap https://react-bootstrap.github.io/ components.
 
-## Prepare
+## Prepare Environment
 1. **NodeJS**  
 ``` https://nodejs.org/en/download/ ```
 2. **Webpack**
@@ -17,14 +17,40 @@ I made this boilerplate to quickly get and up running with Electron app developm
 
 ## Development Environment
 
+**Run Dev Build with HMR using DevServer**
+``` npm run dev ```
+it will run the build with HMR 
+
+Or, **Create a dev build**
+``` npm run devbuild ```
+it will create **build** folder with both background app and react app.
 
 ## Production Environment
+
+**Run Prod Build with HMR using Electron App**
+``` npm run prod ```
+it will run the build with HMR
+
+Or, **Create a Prod build**
+``` npm run prodbuild ```
+it will create **build** folder with both uglified build of background app and react app.
+
+## Create Packaged App
+
+**Build app**
+``` npm run package ```
+it will create **release** folder with app using **electron-builder**
+
 
 ## App Screenshot
 
 ![App Screenshot](https://github.com/HydroCarbons/electron-react-boilerplate-2018/blob/master/docs/app.png)
 
 ## Build Pipeline
+
+( Install Dependencies => Create Dev / Prod Build => Create Packaged App )
+
+
 
 ![Build Pipeline]()
 
