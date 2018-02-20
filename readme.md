@@ -51,8 +51,5 @@ it will create **release** folder with app using **electron-builder**
 ( Install Dependencies => Create Dev / Prod Build => Create Packaged App )
 
 
-
-![Build Pipeline]()
-
 ## License
 This project is licensed under the Apache License 2.0, Copyright (c) 2018 HydroCarbons. For more information see LICENSE.md.
